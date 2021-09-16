@@ -20,8 +20,12 @@ public class Sample1 {
 
 	@Test
 	private void sampleTest() {
-		System.out.println();
-		System.out.println();
+System.out.println();
+System.out.println();
+System.out.println("A");
+System.out.println("b");
+System.out.println("c");
+		
 	}
 
 }
