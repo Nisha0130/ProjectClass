@@ -9,28 +9,19 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Sample1 {
 	WebDriver driver;
+
 	@BeforeMethod
 	private void beforeMethod() {
 		WebDriverManager.chromedriver().setup();
-		 driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.get("http://adactinhotelapp.com/");
 		driver.manage().window().maximize();
 	}
-	
+
 	@Test
 	private void sampleTest() {
-		// TODO Auto-generated method stub
-
+		System.out.println();
+		System.out.println();
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }
