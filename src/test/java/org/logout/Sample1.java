@@ -19,8 +19,9 @@ public class Sample1 {
 	
 	@Test
 	private void sampleTest() {
-		// TODO Auto-generated method stub
-
+System.out.println("A");
+System.out.println("b");
+System.out.println("c");
 	}
 	
 	
